@@ -1,0 +1,38 @@
+# Keil MDK-ARM / UV4
+*.o
+*.d
+*.crf
+*.lnp
+*.axf
+*.map
+*.htm
+*.sct
+*.dep
+*.uvoptx
+*.uvgui.*
+*.uvguix.*
+*.bak
+*.Administrator
+*.emSession
+DebugConfig/
+Listings/
+Objects/
+
+# STM32CubeIDE / Eclipse / TrueSTUDIO
+Debug/
+Release/
+*.launch
+.metadata/
+.settings/
+*.elf
+*.hex
+*.bin
+*.map
+*.exe
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
