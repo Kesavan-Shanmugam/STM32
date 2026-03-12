@@ -1,4 +1,4 @@
-# 🚀 STM32F4x Bare-Metal Code Repository
+# STM32F4x Bare-Metal Code Repository
 
 Welcome to the **Master Directory** for all STM32F4x register-level (bare-metal) implementations. This directory contains **17 distinct projects**, spanning from simple GPIO manipulation to complex communication protocols and display interfacing. 
 
