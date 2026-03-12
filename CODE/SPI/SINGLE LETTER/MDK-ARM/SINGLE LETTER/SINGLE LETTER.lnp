@@ -1,0 +1,23 @@
+--cpu=Cortex-M4.fp.sp
+"single letter\startup_stm32f446xx.o"
+"single letter\main.o"
+"single letter\stm32f4xx_it.o"
+"single letter\stm32f4xx_hal_msp.o"
+"single letter\stm32f4xx_hal_rcc.o"
+"single letter\stm32f4xx_hal_rcc_ex.o"
+"single letter\stm32f4xx_hal_flash.o"
+"single letter\stm32f4xx_hal_flash_ex.o"
+"single letter\stm32f4xx_hal_flash_ramfunc.o"
+"single letter\stm32f4xx_hal_gpio.o"
+"single letter\stm32f4xx_hal_dma_ex.o"
+"single letter\stm32f4xx_hal_dma.o"
+"single letter\stm32f4xx_hal_pwr.o"
+"single letter\stm32f4xx_hal_pwr_ex.o"
+"single letter\stm32f4xx_hal_cortex.o"
+"single letter\stm32f4xx_hal.o"
+"single letter\stm32f4xx_hal_exti.o"
+"single letter\system_stm32f4xx.o"
+--strict --scatter "SINGLE LETTER\SINGLE LETTER.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "SINGLE LETTER.map" -o "SINGLE LETTER\SINGLE LETTER.axf"

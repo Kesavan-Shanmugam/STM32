@@ -1,0 +1,23 @@
+--cpu=Cortex-M4.fp.sp
+"switch on led on\startup_stm32f446xx.o"
+"switch on led on\main.o"
+"switch on led on\stm32f4xx_it.o"
+"switch on led on\stm32f4xx_hal_msp.o"
+"switch on led on\stm32f4xx_hal_rcc.o"
+"switch on led on\stm32f4xx_hal_rcc_ex.o"
+"switch on led on\stm32f4xx_hal_flash.o"
+"switch on led on\stm32f4xx_hal_flash_ex.o"
+"switch on led on\stm32f4xx_hal_flash_ramfunc.o"
+"switch on led on\stm32f4xx_hal_gpio.o"
+"switch on led on\stm32f4xx_hal_dma_ex.o"
+"switch on led on\stm32f4xx_hal_dma.o"
+"switch on led on\stm32f4xx_hal_pwr.o"
+"switch on led on\stm32f4xx_hal_pwr_ex.o"
+"switch on led on\stm32f4xx_hal_cortex.o"
+"switch on led on\stm32f4xx_hal.o"
+"switch on led on\stm32f4xx_hal_exti.o"
+"switch on led on\system_stm32f4xx.o"
+--strict --scatter "switch on led on\switch on led on.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "switch on led on.map" -o "switch on led on\switch on led on.axf"

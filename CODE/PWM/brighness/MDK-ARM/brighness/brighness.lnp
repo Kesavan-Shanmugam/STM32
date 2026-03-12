@@ -1,0 +1,23 @@
+--cpu=Cortex-M4.fp.sp
+"brighness\startup_stm32f446xx.o"
+"brighness\main.o"
+"brighness\stm32f4xx_it.o"
+"brighness\stm32f4xx_hal_msp.o"
+"brighness\stm32f4xx_hal_rcc.o"
+"brighness\stm32f4xx_hal_rcc_ex.o"
+"brighness\stm32f4xx_hal_flash.o"
+"brighness\stm32f4xx_hal_flash_ex.o"
+"brighness\stm32f4xx_hal_flash_ramfunc.o"
+"brighness\stm32f4xx_hal_gpio.o"
+"brighness\stm32f4xx_hal_dma_ex.o"
+"brighness\stm32f4xx_hal_dma.o"
+"brighness\stm32f4xx_hal_pwr.o"
+"brighness\stm32f4xx_hal_pwr_ex.o"
+"brighness\stm32f4xx_hal_cortex.o"
+"brighness\stm32f4xx_hal.o"
+"brighness\stm32f4xx_hal_exti.o"
+"brighness\system_stm32f4xx.o"
+--strict --scatter "brighness\brighness.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "brighness.map" -o brighness\brighness.axf
