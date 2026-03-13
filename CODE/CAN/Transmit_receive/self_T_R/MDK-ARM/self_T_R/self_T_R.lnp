@@ -1,0 +1,23 @@
+--cpu=Cortex-M4.fp.sp
+"self_t_r\startup_stm32f446xx.o"
+"self_t_r\main.o"
+"self_t_r\stm32f4xx_it.o"
+"self_t_r\stm32f4xx_hal_msp.o"
+"self_t_r\stm32f4xx_hal_rcc.o"
+"self_t_r\stm32f4xx_hal_rcc_ex.o"
+"self_t_r\stm32f4xx_hal_flash.o"
+"self_t_r\stm32f4xx_hal_flash_ex.o"
+"self_t_r\stm32f4xx_hal_flash_ramfunc.o"
+"self_t_r\stm32f4xx_hal_gpio.o"
+"self_t_r\stm32f4xx_hal_dma_ex.o"
+"self_t_r\stm32f4xx_hal_dma.o"
+"self_t_r\stm32f4xx_hal_pwr.o"
+"self_t_r\stm32f4xx_hal_pwr_ex.o"
+"self_t_r\stm32f4xx_hal_cortex.o"
+"self_t_r\stm32f4xx_hal.o"
+"self_t_r\stm32f4xx_hal_exti.o"
+"self_t_r\system_stm32f4xx.o"
+--strict --scatter "self_T_R\self_T_R.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "self_T_R.map" -o self_T_R\self_T_R.axf
